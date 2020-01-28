@@ -127,13 +127,13 @@
 
 // console.log(rand)
 
-name = ['john', 'joe', 'gi', 'jane']
-lastName = ['smith', 'lorenzo', 'gonzalez']
+// name = ['john', 'joe', 'gi', 'jane']
+// lastName = ['smith', 'lorenzo', 'gonzalez']
 
-ranNumName = Math.floor(Math.random() * name.length)
-ranLastName = Math.floor(Math.random() * lastName.length)
+// ranNumName = Math.floor(Math.random() * name.length)
+// ranLastName = Math.floor(Math.random() * lastName.length)
 
-console.log(name[ranNumName] + ' ' + lastName[ranLastName])
+// console.log(name[ranNumName] + ' ' + lastName[ranLastName])
 
 
 

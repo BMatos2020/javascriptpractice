@@ -53,79 +53,87 @@
                       
 //console.log the string 'hello world
 
-console.log('hello world')
+// console.log('hello world')
 
-// save num 7 in a var and console.log item
+// // save num 7 in a var and console.log item
 
-let a = 7
+// let a = 7
 
-console.log(a)
+// console.log(a)
 
-// x = 5 
+// // x = 5 
 
-let x = 5
+// let x = 5
 
-// create a var set it equal to x plus 10, console.log it
+// // create a var set it equal to x plus 10, console.log it
 
-var y = x + 10
+// var y = x + 10
 
-console.log(y)
+// console.log(y)
 
-// create var set it equal to 'hello', create another equal to 'world'.. concatenate them with a space in the middle and console.log it
+// // create var set it equal to 'hello', create another equal to 'world'.. concatenate them with a space in the middle and console.log it
 
-var stringOne = 'Hello'
-var stringTwo = 'World'
+// var stringOne = 'Hello'
+// var stringTwo = 'World'
 
-console.log(stringOne + ' ' + stringTwo)
+// console.log(stringOne + ' ' + stringTwo)
 
-// use x = [9,8,7,6]
+// // use x = [9,8,7,6]
 
-// console.log num 8 from the list x
+// // console.log num 8 from the list x
 
-//console.log num 6 from the list x
+// //console.log num 6 from the list x
 
-let z = [9,8,7,6]
+// let z = [9,8,7,6]
 
-console.log(z[1])
-console.log(z[3])
+// console.log(z[1])
+// console.log(z[3])
 
 
-// use obj = {
+// // use obj = {
+// //   name: 'Joe',
+// //   age: 5
+// // }
+
+// // console.log 'Joe" from the var obj
+
+// // console.log 5 from the var obj
+
+// let obj = {
 //   name: 'Joe',
 //   age: 5
 // }
 
-// console.log 'Joe" from the var obj
+// console.log(obj.name)
+// console.log(obj.age)
 
-// console.log 5 from the var obj
+// // google how to create a random number with javascript
 
-let obj = {
-  name: 'Joe',
-  age: 5
-}
+// let any = Math.random()
 
-console.log(obj.name)
-console.log(obj.age)
+// console.log(any)
 
-// google how to create a random number with javascript
+// // use that random number to get a random item from the list x used above, ask if lost 
 
-let any = Math.random()
-
-console.log(any)
-
-// use that random number to get a random item from the list x used above, ask if lost 
-
-// function random_item(any)
-// {
+// // function random_item(any)
+// // {
   
-// return any[Math.floor(Math.random()*any.length)];
+// // return any[Math.floor(Math.random()*any.length)];
      
-// }
+// // }
 
 
-var rand = z[Math.floor(Math.random() * z.length)];
+// var rand = z[Math.floor(Math.random() * z.length)];
 
-console.log(rand)
+// console.log(rand)
+
+name = ['john', 'joe', 'gi', 'jane']
+lastName = ['smith', 'lorenzo', 'gonzalez']
+
+ranNumName = Math.floor(Math.random() * name.length)
+ranLastName = Math.floor(Math.random() * lastName.length)
+
+console.log(name[ranNumName] + ' ' + lastName[ranLastName])
 
 
 
